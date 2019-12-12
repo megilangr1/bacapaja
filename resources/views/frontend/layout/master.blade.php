@@ -14,7 +14,6 @@
 
 		<link rel="stylesheet" href="{{ asset('') }}other/ckeditor/plugins/prism/lib/prism/prism_patched.min.css">
 		<script src="{{ asset('') }}other/ckeditor/plugins/prism/lib/prism/prism_patched.min.js"></script>
-
 </head>
 
 <body class="hold-transition layout-top-nav">
@@ -52,7 +51,8 @@
 
     <script src="{{ asset('') }}plugins/jquery/jquery.min.js"></script>
     <script src="{{ asset('') }}plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ asset('') }}dist/js/adminlte.min.js"></script>
+		<script src="{{ asset('') }}dist/js/adminlte.min.js"></script>
+
 </body>
 
 </html>
