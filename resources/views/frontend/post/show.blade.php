@@ -9,6 +9,10 @@
 	</style>
 @endsection
 
+@section('headTitle')
+		{{ $post->title }}
+@endsection
+
 @section('content')
 <div class="row no-gutters border overflow-hidden flex-md-row mb-2 shadow-sm h-md-250 position-relative">
     <div class="col-md-12 col-sm-12 col-lg-12 p-4">
