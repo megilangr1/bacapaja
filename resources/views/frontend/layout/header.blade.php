@@ -4,9 +4,9 @@
 				<img src="{{ asset('images/main-logo.png') }}" alt="Logo-Utama" class="img-fluid" style="height: 90px;" >
 			</a>	
 		</div>
-    <div class="col-sm-8 col-md-8 pr-2">
+    {{-- <div class="col-sm-8 col-md-8 pr-2">
         <img src="{{ asset('images/iklan-01.png') }}" alt="Iklan-01" class="img-fluid" style="height: 90px;">
-    </div>
+    </div> --}}
     <div class="col-sm-12 col-md-12 mt-4 mb-0">
 				<div class="col-md-12 text-center mb-2">
 						<div class="p-2 mb-2 bg-light">
