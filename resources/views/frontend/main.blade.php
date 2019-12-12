@@ -1,9 +1,5 @@
 @extends('frontend.layout.master')
 
-@section('headTitle')
-		Baca Apa Aja
-@endsection
-
 @section('content')
 
 @if (session()->has('kategori'))
