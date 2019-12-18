@@ -5,7 +5,7 @@
 			</a>	
 		</div>
     <div class="col-sm-8 col-md-8 pr-2 text-center d-none d-sm-none d-md-block d-lg-block">
-        <img src="{{ asset('images/iklan-01.png') }}" alt="Iklan-01" class="img-fluid" style="height: 90px;">
+        {{-- <img src="{{ asset('images/iklan-01.png') }}" alt="Iklan-01" class="img-fluid" style="height: 90px;"> --}}
     </div>
     <div class="col-sm-12 col-md-12 mt-4 mb-0">
         {{-- <div class="input-group">
