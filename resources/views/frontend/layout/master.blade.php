@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Bacapaja | @yield('headTitle') </title>
+		<title>Bacapaja | @yield('headTitle') </title>
 
     <link rel="stylesheet" href="{{ asset('') }}plugins/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('') }}dist/css/adminlte.min.css">
@@ -19,7 +19,7 @@
 <body class="hold-transition layout-top-nav">
     <div class="wrapper">
         <div class="content-wrapper mb-2" style="background-color: #ffffff;">
-            <div class="content-header">
+            <div class="content-header" style="padding-bottom: 0px;">
                 <div class="container">
                     @include('frontend.layout.header')
                 </div>

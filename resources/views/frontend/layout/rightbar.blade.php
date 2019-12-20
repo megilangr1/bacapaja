@@ -1,16 +1,22 @@
 <div class="col-sm-3 col-md-3 col-lg-3">
     <div class="col-md-12 text-center mb-2">
-        <div class="p-4 mb-3 bg-light">
-            <h4 class="font">Bacapaja.xyz</h4>
-            <p class="mb-0">
-                Selamat Datang di-Bacapaja. Baca Apa Aja, Belajar Apa Aja, Pengetahuan Apa Aja.
-            </p>
-        </div>
-    </div>
-
-    <div class="col-md-12 text-center mb-2">
         <div class="card card-widget widget-user-2">
-            <div class="widget-user-header bg-teal">
+						@php
+						$bg = rand(0, 10);
+						switch ($bg) {
+						case '1': $color = 'bg-indigo'; break;
+						case '2': $color = 'bg-navy'; break;
+						case '3': $color = 'bg-purple'; break;
+						case '4': $color = 'bg-fuchsia'; break;
+						case '5': $color = 'bg-pink'; break;
+						case '6': $color = 'bg-maroon'; break;
+						case '7': $color = 'bg-orange'; break;
+						case '8': $color = 'bg-lime'; break;
+						case '10': $color = 'bg-olive'; break;
+						default: $color = 'bg-teal'; break;
+						}
+						@endphp
+            <div class="widget-user-header {{ $color }}">
                 <h3 class="widget-user-username m-0">Kategori</h3>
             </div>
             <div class="card-footer p-0">
@@ -29,7 +35,7 @@
                     case '7': $color = 'bg-orange'; break;
                     case '8': $color = 'bg-lime'; break;
                     case '10': $color = 'bg-olive'; break;
-                    default: $color = 'bg-light'; break;
+                    default: $color = 'bg-maroon'; break;
                     }
                     @endphp
                     <li class="nav-item {{ $color }}">
