@@ -7,7 +7,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="description" content="Bacapaja - Baca Apa Aja, Disini kamu bisa baca apa aja yang kamu mau." />
 
-		<title>Bacapaja | @yield('headTitle') </title>
+		<title>Bacapaja - Baca Apa Aja @if (!Request::is('/')) | @yield('headTitle') @endif </title>
 
 		<link rel="icon" type="image/png" href="{{ asset('') }}images/favicon.ico" sizes="32x32" />
 		{{-- <link rel="icon" type="image/png" href="{{ asset('') }}images/favicon-16x16.png" sizes="32x32" /> --}}
