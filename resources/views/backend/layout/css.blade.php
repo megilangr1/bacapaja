@@ -30,5 +30,5 @@
 {{-- Other CSS & Script --}}
 <script src="{{ asset('') }}other/ckeditor/ckeditor.js"></script>
 
-<link rel="stylesheet" href="{{ asset('') }}other/lib/codemirror.css">
-<script src="{{ asset('') }}other/lib/codemirror.js"></script>
+{{-- <link rel="stylesheet" href="{{ asset('') }}other/lib/codemirror.css">
+<script src="{{ asset('') }}other/lib/codemirror.js"></script> --}}

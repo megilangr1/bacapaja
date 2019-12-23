@@ -46,8 +46,16 @@
 						{!! $post->content !!}
 				</p>
 				
-				<br>
 				<hr>
+					<h4>Incoming search terms</h4>
+				
+					<ul>
+						@foreach ($post->incomingsearch as $item)
+							<li>{{ $item->search }}</li>
+						@endforeach
+					</ul>
+				<hr>
+
 				<div id="disqus_thread"></div>
 				<script>
 					(function() {

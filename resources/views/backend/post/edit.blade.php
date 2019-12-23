@@ -60,7 +60,52 @@
                     <label for="">Isi Artikel : </label>
                     {{-- <textarea class="isi" name="content" required placeholder="" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">{{ $post->content }}</textarea> --}}
                     <textarea class="isi form-control" id="isi" name="content" required placeholder="" style="">{{ $post->content }}</textarea>
-                </div>
+								</div>
+								<div class="form-group">
+									<label for="">Incoming Search Terms : </label>
+									<table class="table">
+										<tr>
+											<td class="pl-0" id="row1">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }} terms1" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ isset($terms[0]) ? $terms[0]['search']:'' }}">
+											</td>
+											<td>
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }} terms2" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ isset($terms[1]) ? $terms[1]['search']:'' }}">
+											</td>
+											<td class="pr-0">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }} terms3" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ isset($terms[2]) ? $terms[2]['search']:'' }}">
+											</td>
+										</tr>
+										<tr>
+											<td class="pl-0">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ isset($terms[3]) ? $terms[3]['search']:'' }}">
+											</td>
+											<td>
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ isset($terms[4]) ? $terms[4]['search']:'' }}">
+											</td>
+											<td class="pr-0">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ isset($terms[5]) ? $terms[5]['search']:'' }}">
+											</td>
+										</tr>
+										<tr>
+											<td class="pl-0">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ isset($terms[6]) ? $terms[6]['search']:'' }}">
+											</td>
+											<td>
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ isset($terms[7]) ? $terms[7]['search']:'' }}">
+											</td>
+											<td class="pr-0">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ isset($terms[8]) ? $terms[8]['search']:'' }}">
+											</td>
+										</tr>
+										<tr>
+											<td colspan="3">
+												<p class="text-danger">
+													{{ $errors->first('terms') }}
+												</p>
+											</td>
+										</tr>
+									</table>
+								</div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-sm btn-success">
                         <i class="fa fa-check"></i> &ensp;
@@ -88,5 +133,21 @@ $(function () {
 		
 		CKEDITOR.replace( 'isi' );
 })
+
+$(document).ready(function() {
+	$('#judul').on('keyup', function() {
+		var value = $(this).val();
+		$('.terms1').val(value);
+	});
+
+	$('#sub').on('keyup', function() {
+		var raw = $(this).val();
+		var value = raw.split('? ');
+
+		(value[0] != "") ? $('.terms2').val(value[0]) : $('.terms2').val('');
+		(value[1] != "") ? $('.terms3').val(value[1]) : $('.terms3').val('');
+
+	});
+});
 </script>
 @endsection

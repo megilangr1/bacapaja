@@ -35,7 +35,7 @@
                             <tr>
                                 <td width="5%">{{ $loop->iteration }}</td>
                                 <td width="20%">{{ $item->title }}</td>
-                                <td width="30%">{{ $item->subtitle }}</td>
+                                <td width="25%">{{ $item->subtitle }}</td>
                                 <td width="10%">{{ $item->category->name }}</td>
                                 <td width="15%" class="text-center">
                                     <form action="{{ route('publish', Crypt::encrypt($item->id)) }}" method="POST">
@@ -52,7 +52,7 @@
                                         @endif
                                     </form>
                                 </td>
-                                <td width="10%">
+                                <td width="15%">
                                     <form action="{{ route('artikel.destroy', Crypt::encrypt($item->id)) }}" method="POST">
                                         @csrf
                                         @method('DELETE')

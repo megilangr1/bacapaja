@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<Html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="description" content="Bacapaja - Baca Apa Aja, Disini kamu bisa baca apa aja yang kamu mau." />
 
 		<title>Bacapaja | @yield('headTitle') </title>
 
+		<link rel="icon" type="image/png" href="{{ asset('') }}images/favicon.ico" sizes="32x32" />
+		{{-- <link rel="icon" type="image/png" href="{{ asset('') }}images/favicon-16x16.png" sizes="32x32" /> --}}
     <link rel="stylesheet" href="{{ asset('') }}plugins/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('') }}dist/css/adminlte.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
@@ -16,7 +19,7 @@
 		<script src="{{ asset('') }}other/ckeditor/plugins/prism/lib/prism/prism_patched.min.js"></script>
 </head>
 
-<body class="hold-transition layout-top-nav">
+<Body class="hold-transition layout-top-nav">
     <div class="wrapper">
         <div class="content-wrapper mb-2" style="background-color: #ffffff;">
             <div class="content-header" style="padding-bottom: 0px;">
@@ -53,6 +56,6 @@
     <script src="{{ asset('') }}plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 		<script src="{{ asset('') }}dist/js/adminlte.min.js"></script>
 
-</body>
+</Body>
 
-</html>
+</Html>
