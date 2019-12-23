@@ -5,18 +5,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="description" content="Bacapaja - Baca Apa Aja, Disini kamu bisa baca apa aja yang kamu mau." />
-
+		
 		<title>Bacapaja - Baca Apa Aja @if (!Request::is('/')) | @yield('headTitle') @endif </title>
-
+		
 		<link rel="icon" type="image/png" href="{{ asset('') }}images/favicon.ico" sizes="32x32" />
 		{{-- <link rel="icon" type="image/png" href="{{ asset('') }}images/favicon-16x16.png" sizes="32x32" /> --}}
     <link rel="stylesheet" href="{{ asset('') }}plugins/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('') }}dist/css/adminlte.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-
+		
 		<link rel="stylesheet" href="{{ asset('') }}other/ckeditor/plugins/prism/lib/prism/prism_patched.min.css">
 		<script src="{{ asset('') }}other/ckeditor/plugins/prism/lib/prism/prism_patched.min.js"></script>
+
+		<meta name="description" content="Bacapaja - Baca Apa Aja, Disini kamu bisa baca apa aja yang kamu mau." />
+		
+		<link rel="canonical" href="https://bacapaja.xyz/" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Bacapaja - Baca Apa Aja" />
+		<meta property="og:description" content="Bacapaja - Baca Apa Aja, Disini kamu bisa baca apa aja yang kamu mau." />
+		<meta property="og:url" content="https://bacapaja.xyz/" />
+		<meta property="og:site_name" content="Bacapaja" />
+		<meta property="article:author" content="https://www.facebook.com/me.virby" />
+		<meta property="article:section" content="Bacapaja" />
 </head>
 
 <Body class="hold-transition layout-top-nav">
