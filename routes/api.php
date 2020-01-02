@@ -25,3 +25,5 @@ Route::group(['prefix' => 'auth'], function () {
         Route::get('user', 'Api\AuthController@user');
     });
 });
+
+Route::get('check', 'Api\MainController@check');
