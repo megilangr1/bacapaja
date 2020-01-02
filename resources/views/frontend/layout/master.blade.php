@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 		
-		<title>Bacapaja - Baca Apa Aja @if (!Request::is('/')) | @yield('headTitle') @endif </title>
+		<title>@if (!Request::is('/')) @yield('headTitle') | @endif Bacapaja - Baca Apa Aja </title>
 		
 		<link rel="icon" type="image/png" href="{{ asset('') }}images/favicon.ico" sizes="32x32" />
 		{{-- <link rel="icon" type="image/png" href="{{ asset('') }}images/favicon-16x16.png" sizes="32x32" /> --}}
