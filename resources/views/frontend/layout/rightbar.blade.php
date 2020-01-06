@@ -54,6 +54,6 @@
 		
 
     <div class="col-md-12 text-center mb-2">
-				<img src="{{ asset('images/iklan-02.png') }}" alt="Iklan-02" class="img-fluid" style="widht: 260px;">
+				
 		</div>
 </div>

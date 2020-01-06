@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <Html lang="en">
 
-<head>
-    <meta charset="utf-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 		
@@ -28,6 +28,7 @@
 		<meta property="og:site_name" content="Bacapaja" />
 		<meta property="article:author" content="https://www.facebook.com/me.virby" />
 		<meta property="article:section" content="Bacapaja" />
+		<script data-ad-client="ca-pub-8645722310251330" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <Body class="hold-transition layout-top-nav">
