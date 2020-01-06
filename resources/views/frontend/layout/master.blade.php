@@ -14,9 +14,13 @@
     <link rel="stylesheet" href="{{ asset('') }}dist/css/adminlte.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 		
-		<link rel="stylesheet" href="{{ asset('') }}other/ckeditor/plugins/prism/lib/prism/prism_patched.min.css">
-		<script src="{{ asset('') }}other/ckeditor/plugins/prism/lib/prism/prism_patched.min.js"></script>
+		{{-- <link rel="stylesheet" href="{{ asset('') }}other/ckeditor_old/plugins/prism/lib/prism/prism_patched.min.css"> --}}
+		{{-- <script src="{{ asset('') }}other/ckeditor_old/plugins/prism/lib/prism/prism_patched.min.js"></script> --}}
+		<script src="{{ asset('') }}other/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js"></script>
 
+		<link rel="stylesheet" href="{{ asset('') }}other/ckeditor/plugins/codesnippet/lib/highlight/styles/ir_black.css">
+		<script>hljs.initHighlightingOnLoad();</script>
+		
 		<meta name="description" content="Bacapaja - Baca Apa Aja, Disini kamu bisa baca apa aja yang kamu mau." />
 		
 		<link rel="canonical" href="https://bacapaja.xyz/" />

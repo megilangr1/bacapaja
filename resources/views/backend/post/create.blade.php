@@ -131,10 +131,7 @@
 <script src="{{ asset('') }}plugins/summernote/summernote-bs4.min.js"></script>
 <script>
 $(function () {
-    // Summernote
-    // $('.isi').summernote()
-		CKEDITOR.replace( 'isi' );
-		// CKEDITOR.replace('isi');
+		CKEDITOR.replace('isi');
 })
 
 $(document).ready(function() {
