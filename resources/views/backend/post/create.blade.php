@@ -69,35 +69,35 @@
 									<table class="table">
 										<tr>
 											<td class="pl-0" id="row1">
-												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }} terms1" name="terms[]" placeholder="Ex. Bla Bla Bla">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }} terms1" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ old('terms.0') }}">
 											</td>
 											<td>
-												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }} terms2" name="terms[]" placeholder="Ex. Bla Bla Bla">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }} terms2" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ old('terms.1') }}">
 											</td>
 											<td class="pr-0">
-												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }} terms3" name="terms[]" placeholder="Ex. Bla Bla Bla">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }} terms3" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ old('terms.2') }}">
 											</td>
 										</tr>
 										<tr>
 											<td class="pl-0">
-												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ old('terms.3') }}">
 											</td>
 											<td>
-												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ old('terms.4') }}">
 											</td>
 											<td class="pr-0">
-												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ old('terms.5') }}">
 											</td>
 										</tr>
 										<tr>
 											<td class="pl-0">
-												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ old('terms.6') }}">
 											</td>
 											<td>
-												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ old('terms.7') }}">
 											</td>
 											<td class="pr-0">
-												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla">
+												<input type="text" class="form-control {{ $errors->has('terms') ? 'is-invalid':'' }}" name="terms[]" placeholder="Ex. Bla Bla Bla" value="{{ old('terms.8') }}">
 											</td>
 										</tr>
 										<tr>
