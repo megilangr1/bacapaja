@@ -32,6 +32,10 @@
 		<meta property="og:site_name" content="Bacapaja" />
 		<meta property="article:author" content="https://www.facebook.com/me.virby" />
 		<meta property="article:section" content="Bacapaja" />
+<<<<<<< HEAD
+=======
+
+>>>>>>> 08dc2fedd956b79e6493ade46f214d5db0c52442
 		<script data-ad-client="ca-pub-8645722310251330" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 

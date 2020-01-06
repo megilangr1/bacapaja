@@ -51,9 +51,12 @@
             </div>
         </div>
 		</div>
+<<<<<<< HEAD
 		
 
     <div class="col-md-12 text-center mb-2">
 				
 		</div>
+=======
+>>>>>>> 08dc2fedd956b79e6493ade46f214d5db0c52442
 </div>
