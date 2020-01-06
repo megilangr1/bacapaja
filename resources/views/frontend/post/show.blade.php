@@ -16,11 +16,11 @@
 @section('content')
 <div class="row no-gutters border overflow-hidden flex-md-row mb-2 shadow-sm h-md-250 position-relative">
     <div class="col-md-12 col-sm-12 col-lg-12 p-4">
-        <h3>
+        <h1>
             <b>
                 {{ $post->title }}
             </b>
-        </h3>
+        </h1>
         Kategori :
         <a href="{{ route('frontend.kategori', str_replace(' ', '-', $post->category->name) ) }}">{{ $post->category->name }} </a>
         |
